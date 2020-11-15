@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" type="image/png" href="icon_32.png">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <img id="logo" src="icon_grande.png" alt="Plugin Logo">
+		<div id="titleContainer">
+			<h1>Selection Filter</h1>
+			<h2>by August Zellmer</h2>
+		</div>
+		<div id="contentContainer">
+			<p>Selection Filter is a simple addon for Google Sheets which allows you to filter out rows and columns based on the
+				contents of their cells. This is accomplished by simply hiding the rows/columns which do not contain specific
+				values that you specify.</p>
+			<p>Google Sheets already has the functionality to filter data. However, this plugin was born out of the need to filter
+				data in slightly more advanced ways than Google Sheets natively allows. The filtering functionality provided by
+				Google Sheets only allows you to filter out rows based on the values in a column. Selection Filter does this, and
+				also allows you to filter out <em>columns</em> based on the values in a <em>row</em>. Furthermore, the filter in Google Sheets acts
+				upon the entire spreadsheet; if you filter the value "100" out of column B, then every row which contains the value
+				"100" in column B will be hidden. Selection Filter allows you to filter data <em>in a specific range</em>; it is possible,
+				for example, to filter out each row <em>between rows 2 and 5</em> that contains the value "100" in column B, while leaving
+				rows 6 and on untouched. Please see the screenshots for more concrete examples of the filtering functionality
+				provided by Selection Filter.</p>
+			<h3 id="privacyPolicy" class="hashLink">Privacy Policy</h3>
+			<p>Selection Filter must be granted permission to read that data on your spreadsheets. This data read is only used to
+				help you setup filters on your spreadsheets; Selection Filter will not upload your data to any additional servers
+				(besides the Google servers which it is already stored on), nor will Selection Filter share your data with anyone.
+				Selection Filter must also be granted permission to hide the rows/columns on your spreadsheet. Hiding these rows/columns
+				is how Selection Filter will filter your data. Selection Filter will not edit any of the cells on your spreadsheets.</p>
+			<p>I (August Zellmer) am provided with basic information about how frequently Selection Filter is used. I may share this
+				usage data with others (e.g. friends, potential employers, etc.). I will not sell this usage data.</p>
+			<h3 id="support" class="hashLink">Support</h3>
+			<p>If you have any questions, please email me at <a alt="support email" href="mailto:august.zellmer+selectionfilter@gmail.com">
+				august.zellmer+selectionfilter@gmail.com</a>.</p>
+			<a href="https://github.com/AugustZellmer/Selection-Filter" alt="source code"><img id="github" src="github.png" alt="Github logo"></a>
+		</div>
+	</body>
+</html>
