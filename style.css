@@ -4,7 +4,7 @@
 }
 
 #logo{
-    width:min(230px, 50%)
+    width:min(230px, 50%);
     display: block;
     margin: 80px auto auto;
 }
